@@ -1,0 +1,116 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin",
+      "name": "Trần Trọng Huy",
+      "bio": "React Native ",
+      "avatar": "./assets/images/post6.jpg",
+      "id": "1",
+      "followers": 80,
+      "following": 40
+    },
+    {
+      "username": "luong",
+      "password": "luong",
+      "id": "2",
+      "name": "Đỗ Tiến Lượng",
+      "avatar": "./assets/images/post2.jpg",
+      "bio": "Designer",
+      "followers": 80,
+      "following": 40
+    },
+    {
+      "username": "user3",
+      "password": "user3",
+      "id": "3",
+      "name": "Trần Văn C",
+      "avatar": "./assets/images/post6.jpg",
+      "bio": "IT",
+      "followers": 999,
+      "following": 999
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "userId": 1,
+      "type": "image",
+      "url": "./assets/images/post1.jpg",
+      "description": "Bài đăng đầu tiên"
+    },
+    {
+      "id": "2",
+      "userId": 2,
+      "type": "image",
+      "url": "./assets/images/post2.jpg",
+      "description": "Hôm nay tôi thật vui"
+    },
+    {
+      "id": "eed8",
+      "userId": "3",
+      "type": "image",
+      "url": "./assets/images/post6.jpg",
+      "description": "hinh meo"
+    },
+    {
+      "id": "5cb9",
+      "userId": "1",
+      "type": "image",
+      "url": "./assets/images/post5.jpg",
+      "description": "fixes"
+    },
+    {
+      "id": "6e4c",
+      "userId": "1",
+      "type": "image",
+      "url": "./assets/images/post3.mp4",
+      "description": "salala"
+    },
+    {
+      "id": "19f5",
+      "userId": "1",
+      "type": "image",
+      "url": "./assets/images/post8.mp4",
+      "description": "video"
+    },
+    {
+      "id": "53f2",
+      "userId": "1",
+      "type": "image",
+      "url": "./assets/images/post8.mp4",
+      "description": ""
+    },
+    {
+      "id": "3d7e",
+      "userId": "1",
+      "type": "image",
+      "url": "./assets/images/post7.mp4",
+      "description": ""
+    },
+    {
+      "id": "b8ee",
+      "userId": "1",
+      "type": "image",
+      "url": "./assets/images/post7.mp4",
+      "description": ""
+    }
+  ],
+  "follows": [
+    {
+      "id": "1",
+      "followerId": 1,
+      "followedId": 2
+    },
+    {
+      "id": "2",
+      "followerId": 2,
+      "followedId": 1
+    },
+    {
+      "id": "3",
+      "followerId": 3,
+      "followedId": 1
+    }
+  ]
+}
